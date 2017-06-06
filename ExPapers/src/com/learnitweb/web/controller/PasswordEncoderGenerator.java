@@ -1,4 +1,4 @@
-package com.mkyong.web.controller;
+package com.learnitweb.web.controller;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 

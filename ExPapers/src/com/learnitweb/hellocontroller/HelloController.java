@@ -1,4 +1,4 @@
-package com.gontuseries.hellocontroller;
+package com.learnitweb.hellocontroller;
 
 
 
@@ -29,7 +29,7 @@ public class HelloController{
 	
 	@RequestMapping(value = "/admin**", method = RequestMethod.GET)
 	public ModelAndView adminPage() {
-
+		System.out.println("inside handle method for admin");
 		ModelAndView model = new ModelAndView();
 		model.addObject("title", "Spring Security Hello World");
 		model.addObject("message", "This is protected page!");
