@@ -21,7 +21,7 @@
     
   </head>
   <body onload='document.loginForm.username.focus();'>
-    <link href="<c:url value="/resources/css/font-awesome.css" />" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
 <div class="container">
     
